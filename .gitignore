@@ -4,7 +4,6 @@ data/processed/
 data/pickle/
 
 # ── Models (large binary files — use Git LFS or exclude) ──────
-# Comment these out if you WANT to push your trained models
 models/*.pkl
 models/*.joblib
 
@@ -15,9 +14,7 @@ models/*.joblib
 # ── Notebooks ─────────────────────────────────────────────────
 .ipynb_checkpoints/
 */.ipynb_checkpoints/
-# Uncomment below if you want to exclude notebooks entirely
-# notebooks/
-# *.ipynb
+
 
 # ── Python ────────────────────────────────────────────────────
 __pycache__/
