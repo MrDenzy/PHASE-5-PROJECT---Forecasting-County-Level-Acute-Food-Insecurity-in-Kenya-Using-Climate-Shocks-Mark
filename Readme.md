@@ -1,6 +1,8 @@
 ## **Early Warning System for Acute Food Crisis**
 
 
+https://huggingface.co/spaces/Moringa-grp5/kenya-food-insecurity
+
 Screen 1 is the County Map — Baseline Risk Overview.
 
 ![Screenshot](images/screen-1.png)
