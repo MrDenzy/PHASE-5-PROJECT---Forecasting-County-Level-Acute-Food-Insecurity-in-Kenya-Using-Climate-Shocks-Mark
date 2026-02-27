@@ -129,7 +129,7 @@ The app has three pages:
 | `is_asal` | Arid and Semi-Arid Land county flag |
 | `region_*` | 6 one-hot encoded region dummies |
 
-> 📷 **Add graph here: Feature Importance**  
+> 📷 **Feature Importance**  
 
 > ![Feature Importance](images/feature_importance.png)
 
@@ -232,7 +232,7 @@ Kenya/
 │   ├── top_features.json              ← 21 selected features
 │   └── model_metadata.json            ← Threshold, metrics
 ├── notebooks/
-│   └── blex.ipynb              ← Full analysis notebook
+│   └── main.ipynb              ← Full analysis notebook
 ├── static/
 │   ├── css/style.css           ← App styling
 │   └── js/                     ← map.js, predict.js, trends.js
