@@ -60,12 +60,12 @@ The app has three pages:
 
 > **Why recall matters:** In humanitarian work, missing a real crisis is far more costly than a false alarm. We optimized for recall — the model would rather flag a county incorrectly than miss a genuine food emergency.
 
-> 📷 ** Confusion Matrix**  
+> 📷 **Confusion Matrix**  
 
 > ![Confusion Matrix](images/confusion_matrix.png)
 
 
-> 📷 ** ROC Curve**  
+> 📷 **ROC Curve**  
 
 > ![ROC Curve](images/roc_curve.png)
 
@@ -76,10 +76,10 @@ The app has three pages:
 
 | Dataset | Source | Records | Coverage |
 |---------|--------|---------|----------|
-| **IPC Food Security** | IPC Global Platform | 4,522 rows | 2019–2025 |
-| **Rainfall (CHIRPS)** | UCSB Climate Hazards Center | 131,544 rows | 1981–2025 |
-| **Food Prices** | WFP VAM / HDX | 17,365 rows | 2006–2025 |
-| **Poverty (MPI)** | Kenya DHS 2022 | 47 counties | Static |
+| **IPC Food Security** | IPC Global Platform | 4,522 rows | 2019–2025 |Source: https://www.ipcinfo.org/
+| **Rainfall (CHIRPS)** | UCSB Climate Hazards Center | 131,544 rows | 1981–2025 |Source: https://dataviz.vam.wfp.org/
+| **Food Prices** | WFP VAM / HDX | 17,365 rows | 2006–2025 |Source: https://price.vam.wfp.org/
+| **Poverty (MPI)** | Kenya DHS 2022 | 47 counties | Static |Source: https://acleddata.com/
 | **Conflict** | ACLED | 350 rows | 1997–2026 |
 
 > ⚠️ Conflict data was excluded from modeling — near-zero correlation (0.096) with food insecurity confirmed it adds no predictive value for county-level prediction.
